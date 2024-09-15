@@ -1,0 +1,303 @@
+main-menu:
+  title: "&8Lonca Menüsü"
+  size: 27
+  items:
+    banner-item:
+      title: "&aLonca Bilgileri"
+      lore:
+        - "&7"
+        - "&7Sahip: &f%owner%"
+        - "&7Öldürme sayısı: &f%kill_count%"
+        - "&7Seviye: &f%level%"
+        - "&7Üye sayısı: &f%member_size%"
+      slot: 4
+    list-item:
+      title: "&aLonca Üyeleri"
+      material: OAK_SIGN
+      slot: 10
+      lore:
+        - "&7Lonca üyelerinizi görüntüleyin"
+        - "&7"
+        - "&7Erişim için tıklayın"
+      custom-model-data: 0
+    color-item:
+      title: "&aLonca Rengi"
+      material: WHITE_WOOL
+      slot: 12
+      lore:
+        - "&7Lonca renginizi değiştirin"
+        - "&7"
+        - "&7Erişim için tıklayın"
+    options-item:
+      title: "&aLonca Seçenekleri"
+      material: REDSTONE_BLOCK
+      slot: 14
+      lore:
+        - "&7Lonca seçeneklerini yönetin"
+        - "&e"
+        - "&7Erişim için tıklayın"
+    leave-item:
+      title: "&cLoncadan Ayrıl"
+      material: BARRIER
+      slot: 26
+      lore:
+        - "&7Loncadan ayrılın"
+        - "&e"
+        - "&7Erişim için tıklayın"
+    enemies-item:
+      title: "&aLonca Düşmanları"
+      material: ARROW
+      slot: 16
+      lore:
+        - "&7Lonca düşmanlarını görüntüleyin"
+        - "&e"
+        - "&7Erişim için tıklayın"
+
+verify-menu:
+  title: "&8Emin misiniz?"
+  size: 27
+  items:
+    accept:
+      title: "&aEVET"
+      material: GREEN_WOOL
+      custom-model-data: 0
+      slot: 11
+      lore:
+        - "&a"
+        - "&7Kabul etmek için tıklayın"
+    deny:
+      title: "&cHAYIR"
+      material: RED_WOOL
+      custom-model-data: 0
+      slot: 15
+      lore:
+        - "&a"
+        - "&7Reddetmek için tıklayın"
+
+member-list:
+  title: "&8Lonca Üyeleri - Sayfa %page%"
+  item-settings:
+    title: "&a%player%"
+    material: PLAYER_HEAD
+    custom-model-data: 0
+    lore:
+      - "&7Rütbe: &f%rank%"
+      - "&7Durum: &f%status%"
+      - "&7"
+      - "&7Bu oyuncuyu düzenlemek için tıklayın" # Bu satır sadece lider ve mod tarafından görülebilir, bu yüzden sona ekleyin
+  items:
+    add-member:
+      title: "&aOyuncu Ekle"
+      material: NAME_TAG
+      slot: 45
+      lore:
+        - "&7Bir oyuncuyu loncaya ekleyin"
+        - "&e"
+        - "&7Erişim için tıklayın"
+    next-page:
+      title: "&6Sonraki sayfa"
+      material: ARROW
+      slot: 46
+      lore:
+        - "&7Sonraki sayfa"
+        - "&e"
+        - "&7Erişim için tıklayın"
+    previous-page:
+      title: "&4Önceki sayfa"
+      material: ARROW
+      slot: 44
+      lore:
+        - "&7Önceki sayfa"
+        - "&e"
+        - "&7Erişim için tıklayın"
+
+member-settings:
+  title: "&8Üye Ayarları"
+  size: 27
+  items:
+    mod-status:
+      title: "&aMod durumu"
+      material: NETHER_STAR
+      slot: 11
+      lore:
+        - "&7Mod durumunu değiştir"
+        - "&7Durum: &f%status%"
+        - "&7"
+        - "&7Erişim için tıklayın"
+    kick-player:
+      title: "&cOyuncu At"
+      material: REDSTONE
+      slot: 15
+      lore:
+        - "&cOyuncuyu loncadan at"
+        - "&e"
+        - "&7Erişim için tıklayın"
+
+enemies-list:
+  title: "&8Lonca Düşmanları - Sayfa %page%"
+  item-settings:
+    material: WHITE_BANNER
+    title: "&a%guild%"
+    custom-model-data: 0
+    lore:
+      - "&7Lonca Lideri: &f%leader%"
+      - "&7Lonca öldürme sayısı: &f%kill_count%"
+      - "&7"
+      - "&7Savaşı bitirmek için tıklayın"
+  items:
+    next-page:
+      title: "&6Sonraki sayfa"
+      material: ARROW
+      slot: 46
+      lore:
+        - "&7Sonraki sayfa"
+        - "&e"
+        - "&7Erişim için tıklayın"
+    previous-page:
+      title: "&4Önceki sayfa"
+      material: ARROW
+      slot: 44
+      lore:
+        - "&7Önceki sayfa"
+        - "&e"
+        - "&7Erişim için tıklayın"
+    add-enemy:
+      title: "&aDüşman Ekle"
+      material: NAME_TAG
+      slot: 45
+      lore:
+        - "&7Bir loncayı düşman listesine ekleyin"
+        - "&e"
+        - "&7Erişim için tıklayın"
+
+color-menu:
+  title: "&8Lonca Rengini Seçin"
+  size: 27
+  items:
+    red:
+      title: "&cKırmızı"
+      material: RED_WOOL
+      custom-model-data: 0
+      slot: 10
+      lore:
+        - "&c"
+        - "&7Bu rengi seçmek için tıklayın"
+      color: '&c'
+    blue:
+      title: "&9Mavi"
+      material: BLUE_WOOL
+      custom-model-data: 0
+      slot: 12
+      lore:
+        - "&9"
+        - "&7Bu rengi seçmek için tıklayın"
+      color: '&3'
+    green:
+      title: "&aYeşil"
+      material: GREEN_WOOL
+      custom-model-data: 0
+      slot: 14
+      lore:
+        - "&a"
+        - "&7Bu rengi seçmek için tıklayın"
+      color: '&a'
+    yellow:
+      title: "&eSarı"
+      material: YELLOW_WOOL
+      custom-model-data: 0
+      slot: 16
+      lore:
+        - "&e"
+        - "&7Bu rengi seçmek için tıklayın"
+      color: '&e'
+
+options-menu:
+  title: "&8Lonca Seçenekleri"
+  size: 27
+  items:
+    pvp:
+      title: "&aLonca PvP Durumu"
+      material: DIAMOND_SWORD
+      slot: 11
+      lore:
+        - "&7Lonca PvP durumunu ayarla"
+        - "&7Durum: &f%status%"
+        - "&7"
+        - "&7Erişim için tıklayın"
+    code:
+      title: "&aLonca Kodu"
+      material: OAK_SIGN
+      slot: 13
+      lore:
+        - "&7Lonca kodunu aktif et"
+        - "&7Durum: &f%status%"
+        - "&7Kod: &f%code%"
+        - "&e"
+        - "&7Etkileşim için tıklayın"
+    moderator-permissions:
+      title: "&aModerator İzinleri"
+      material: NETHER_STAR
+      slot: 15
+      lore:
+        - "&7Moderator izinlerini yönet"
+        - "&7"
+        - "&7Erişim için tıklayın"
+
+permissions-menu:
+  title: "&8Moderator İzinleri"
+  size: 27
+  items:
+    kick:
+      title: "&cAt"
+      material: REDSTONE
+      slot: 12
+      lore:
+        - "&7Moderator'lara üyeleri atma izni ver."
+        - "&7Durum: &f%status%"
+        - "&e"
+        - "&7Etkileşim için tıklayın"
+    invite:
+      title: "&aDavet Et"
+      material: PAPER
+      slot: 13
+      lore:
+        - "&7Moderator'lara üyeleri davet etme izni ver."
+        - "&7Durum: &f%status%"
+        - "&e"
+        - "&7Etkileşim için tıklayın"
+    rename:
+      title: "&bYeniden Adlandır"
+      material: NAME_TAG
+      slot: 14
+      lore:
+        - "&7Moderator'lara loncayı yeniden adlandırma izni ver."
+        - "&7Durum: &f%status%"
+        - "&e"
+        - "&7Etkileşim için tıklayın"
+    war:
+      title: "&6Savaş"
+      material: IRON_SWORD
+      slot: 15
+      lore:
+        - "&7Moderator'lara savaş ilan etme izni ver."
+        - "&7Durum: &f%status%"
+        - "&e"
+        - "&7Etkileşim için tıklayın"
+    color:
+      title: "&dRenk"
+      material: WHITE_WOOL
+      slot: 22
+      lore:
+        - "&7Moderator'lara lonca rengini değiştirme izni ver."
+        - "&7Durum: &f%status%"
+        - "&e"
+        - "&7Etkileşim için tıklayın"
+    pvp:
+      title: "&4PvP"
+      material: DIAMOND_SWORD
+      slot: 11
+      lore:
+        - "&7Moderator'lara PvP açma izni ver."
+        - "&7Durum: &f%status%"
+        - "&e"
+        - "&7Etkileşim için tıklayın"

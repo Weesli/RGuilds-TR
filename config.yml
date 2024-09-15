@@ -1,0 +1,84 @@
+#
+#         Author by @Weesli
+#
+
+license-key: "<key>"
+
+options:
+  prefix: "&6Guild &8>> "
+  database:
+    # İki veritabanı türü mevcut: 'MySQL' ve 'SQLite'
+    type: "SQLite"
+    host: "localhost"
+    port: "3306"
+    database: "RGuilds"
+    username: "root"
+    password: "123456ab"
+  economy:
+    # Ekonomi türleri: 'Vault', 'PlayerPoints' ve 'None'
+    type: "Vault"
+    cost: 1500
+  guild-message-format: "&b[Guild] &7%player% &8>> &f%message%"
+  star-emoji: '&6⭐'
+  length-settings:
+    min: 5
+    max: 15
+  pvp-status:
+    active: "Aktif"
+    non-active: "Pasif"
+  status-message:
+    online: "&aÇevrimiçi"
+    offline: "&cÇevrimdışı"
+  rank-prefix:
+    leader: "Lider"
+    mod: "Mod"
+    member: "Üye"
+  mod-status:
+    active: "Aktif"
+    non-active: "Pasif"
+  code-status:
+    active: "Aktif"
+    non-active: "Pasif"
+  permission-status:
+    active: "Aktif"
+    non-active: "Pasif"
+  discord:
+    enabled: false
+    url: ''
+    avatar_url: ""
+    title: "Weesli"
+    modals:
+      end-war: true
+      start-war: true
+  points:
+    enabled: true
+    kill-player: 2
+    enemy-player:
+      enabled: true
+      point: 4
+    mobs:
+      ZOMBIE: 1
+      SKELETON: 2
+      CREEPER: 3
+  cross-server:
+    enabled: false
+    redis-uri: ""
+
+levels:
+  # Lonca maksimum seviyeye ulaştığında, bir sonraki seviyeyi görüntülerken bu gösterilecektir.
+  max-level-title: "&eMAKSİMUM SEVİYE"
+  # Seviye-1 her zaman 0 gerektiren puanla başlamalıdır!
+  level-1:
+    required-xp: 0
+    # Yer tutucular ve her yerde görünecek ad
+    display-name: "&aSeviye 1"
+    # Bu seviye ile oyuncuların loncaya alabileceği oyuncu sayısı. 0 = sınırsız
+    player-limit: 10
+  level-2:
+    required-xp: 500
+    display-name: "&bSeviye 2"
+    player-limit: 15
+  level-3:
+    required-xp: 1000
+    display-name: "&cSeviye 3"
+    player-limit: 20
